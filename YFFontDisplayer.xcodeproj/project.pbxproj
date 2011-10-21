@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806EAAFE1451C59500CA81A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFD1451C59500CA81A7 /* UIKit.framework */; };
+		806EAB001451C59500CA81A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFF1451C59500CA81A7 /* Foundation.framework */; };
+		806EAB061451C59500CA81A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806EAB041451C59500CA81A7 /* InfoPlist.strings */; };
+		806EAB081451C59500CA81A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB071451C59500CA81A7 /* main.m */; };
+		806EAB0C1451C59500CA81A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB0B1451C59500CA81A7 /* AppDelegate.m */; };
+		806EAB141451C59500CA81A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAB131451C59500CA81A7 /* SenTestingKit.framework */; };
+		806EAB151451C59500CA81A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFD1451C59500CA81A7 /* UIKit.framework */; };
+		806EAB161451C59500CA81A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFF1451C59500CA81A7 /* Foundation.framework */; };
+		806EAB1E1451C59500CA81A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806EAB1C1451C59500CA81A7 /* InfoPlist.strings */; };
+		806EAB211451C59500CA81A7 /* YFFontDisplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB201451C59500CA81A7 /* YFFontDisplayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806EAB171451C59500CA81A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806EAAF01451C59500CA81A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806EAAF81451C59500CA81A7;
+			remoteInfo = YFFontDisplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806EAAF91451C59500CA81A7 /* YFFontDisplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFFontDisplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EAAFD1451C59500CA81A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		806EAAFF1451C59500CA81A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		806EAB031451C59500CA81A7 /* YFFontDisplayer-Info.plist */ = {isa = PBXFileReference; path = "YFFontDisplayer-Info.plist"; sourceTree = "<group>"; };
+		806EAB051451C59500CA81A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		806EAB071451C59500CA81A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806EAB091451C59500CA81A7 /* YFFontDisplayer-Prefix.pch */ = {isa = PBXFileReference; path = "YFFontDisplayer-Prefix.pch"; sourceTree = "<group>"; };
+		806EAB0A1451C59500CA81A7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		806EAB0B1451C59500CA81A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806EAB121451C59500CA81A7 /* YFFontDisplayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFFontDisplayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EAB131451C59500CA81A7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		806EAB1B1451C59500CA81A7 /* YFFontDisplayerTests-Info.plist */ = {isa = PBXFileReference; path = "YFFontDisplayerTests-Info.plist"; sourceTree = "<group>"; };
+		806EAB1D1451C59500CA81A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		806EAB1F1451C59500CA81A7 /* YFFontDisplayerTests.h */ = {isa = PBXFileReference; path = YFFontDisplayerTests.h; sourceTree = "<group>"; };
+		806EAB201451C59500CA81A7 /* YFFontDisplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFFontDisplayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806EAAF61451C59500CA81A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EAAFE1451C59500CA81A7 /* UIKit.framework in Frameworks */,
+				806EAB001451C59500CA81A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806EAB0E1451C59500CA81A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EAB141451C59500CA81A7 /* SenTestingKit.framework in Frameworks */,
+				806EAB151451C59500CA81A7 /* UIKit.framework in Frameworks */,
+				806EAB161451C59500CA81A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806EAAEE1451C59500CA81A7 = {
+			isa = PBXGroup;
+			children = (
+				806EAB011451C59500CA81A7 /* YFFontDisplayer */,
+				806EAB191451C59500CA81A7 /* YFFontDisplayerTests */,
+				806EAAFC1451C59500CA81A7 /* Frameworks */,
+				806EAAFA1451C59500CA81A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806EAAFA1451C59500CA81A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806EAAF91451C59500CA81A7 /* YFFontDisplayer.app */,
+				806EAB121451C59500CA81A7 /* YFFontDisplayerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806EAAFC1451C59500CA81A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				806EAAFD1451C59500CA81A7 /* UIKit.framework */,
+				806EAAFF1451C59500CA81A7 /* Foundation.framework */,
+				806EAB131451C59500CA81A7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		806EAB011451C59500CA81A7 /* YFFontDisplayer */ = {
+			isa = PBXGroup;
+			children = (
+				806EAB0A1451C59500CA81A7 /* AppDelegate.h */,
+				806EAB0B1451C59500CA81A7 /* AppDelegate.m */,
+				806EAB021451C59500CA81A7 /* Supporting Files */,
+			);
+			path = YFFontDisplayer;
+			sourceTree = "<group>";
+		};
+		806EAB021451C59500CA81A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806EAB031451C59500CA81A7 /* YFFontDisplayer-Info.plist */,
+				806EAB041451C59500CA81A7 /* InfoPlist.strings */,
+				806EAB071451C59500CA81A7 /* main.m */,
+				806EAB091451C59500CA81A7 /* YFFontDisplayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		806EAB191451C59500CA81A7 /* YFFontDisplayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				806EAB1F1451C59500CA81A7 /* YFFontDisplayerTests.h */,
+				806EAB201451C59500CA81A7 /* YFFontDisplayerTests.m */,
+				806EAB1A1451C59500CA81A7 /* Supporting Files */,
+			);
+			path = YFFontDisplayerTests;
+			sourceTree = "<group>";
+		};
+		806EAB1A1451C59500CA81A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806EAB1B1451C59500CA81A7 /* YFFontDisplayerTests-Info.plist */,
+				806EAB1C1451C59500CA81A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806EAAF81451C59500CA81A7 /* YFFontDisplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806EAB241451C59500CA81A7 /* Build configuration list for PBXNativeTarget "YFFontDisplayer" */;
+			buildPhases = (
+				806EAAF51451C59500CA81A7 /* Sources */,
+				806EAAF61451C59500CA81A7 /* Frameworks */,
+				806EAAF71451C59500CA81A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFFontDisplayer;
+			productName = YFFontDisplayer;
+			productReference = 806EAAF91451C59500CA81A7 /* YFFontDisplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806EAB111451C59500CA81A7 /* YFFontDisplayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806EAB271451C59500CA81A7 /* Build configuration list for PBXNativeTarget "YFFontDisplayerTests" */;
+			buildPhases = (
+				806EAB0D1451C59500CA81A7 /* Sources */,
+				806EAB0E1451C59500CA81A7 /* Frameworks */,
+				806EAB0F1451C59500CA81A7 /* Resources */,
+				806EAB101451C59500CA81A7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806EAB181451C59500CA81A7 /* PBXTargetDependency */,
+			);
+			name = YFFontDisplayerTests;
+			productName = YFFontDisplayerTests;
+			productReference = 806EAB121451C59500CA81A7 /* YFFontDisplayerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806EAAF01451C59500CA81A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 806EAAF31451C59500CA81A7 /* Build configuration list for PBXProject "YFFontDisplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 806EAAEE1451C59500CA81A7;
+			productRefGroup = 806EAAFA1451C59500CA81A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806EAAF81451C59500CA81A7 /* YFFontDisplayer */,
+				806EAB111451C59500CA81A7 /* YFFontDisplayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806EAAF71451C59500CA81A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EAB061451C59500CA81A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806EAB0F1451C59500CA81A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EAB1E1451C59500CA81A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		806EAB101451C59500CA81A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806EAAF51451C59500CA81A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EAB081451C59500CA81A7 /* main.m in Sources */,
+				806EAB0C1451C59500CA81A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806EAB0D1451C59500CA81A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806EAB211451C59500CA81A7 /* YFFontDisplayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806EAB181451C59500CA81A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806EAAF81451C59500CA81A7 /* YFFontDisplayer */;
+			targetProxy = 806EAB171451C59500CA81A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806EAB041451C59500CA81A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806EAB051451C59500CA81A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		806EAB1C1451C59500CA81A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806EAB1D1451C59500CA81A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806EAB221451C59500CA81A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806EAB231451C59500CA81A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806EAB251451C59500CA81A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YFFontDisplayer/YFFontDisplayer-Prefix.pch";
+				INFOPLIST_FILE = "YFFontDisplayer/YFFontDisplayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		806EAB261451C59500CA81A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YFFontDisplayer/YFFontDisplayer-Prefix.pch";
+				INFOPLIST_FILE = "YFFontDisplayer/YFFontDisplayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		806EAB281451C59500CA81A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YFFontDisplayer.app/YFFontDisplayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YFFontDisplayer/YFFontDisplayer-Prefix.pch";
+				INFOPLIST_FILE = "YFFontDisplayerTests/YFFontDisplayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		806EAB291451C59500CA81A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YFFontDisplayer.app/YFFontDisplayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YFFontDisplayer/YFFontDisplayer-Prefix.pch";
+				INFOPLIST_FILE = "YFFontDisplayerTests/YFFontDisplayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806EAAF31451C59500CA81A7 /* Build configuration list for PBXProject "YFFontDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806EAB221451C59500CA81A7 /* Debug */,
+				806EAB231451C59500CA81A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806EAB241451C59500CA81A7 /* Build configuration list for PBXNativeTarget "YFFontDisplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806EAB251451C59500CA81A7 /* Debug */,
+				806EAB261451C59500CA81A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		806EAB271451C59500CA81A7 /* Build configuration list for PBXNativeTarget "YFFontDisplayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806EAB281451C59500CA81A7 /* Debug */,
+				806EAB291451C59500CA81A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806EAAF01451C59500CA81A7 /* Project object */;
+}
