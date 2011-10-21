@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  YFFontDisplayer
+//  FontLISTVIEW
 //
 //  Created by Yuichi Fujiki on 10/21/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
@@ -11,12 +11,17 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize mainVC = _mainVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.mainVC = [[MainViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = self.mainVC;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

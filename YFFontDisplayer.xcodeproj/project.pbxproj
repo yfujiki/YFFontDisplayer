@@ -11,12 +11,14 @@
 		806EAB001451C59500CA81A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFF1451C59500CA81A7 /* Foundation.framework */; };
 		806EAB061451C59500CA81A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806EAB041451C59500CA81A7 /* InfoPlist.strings */; };
 		806EAB081451C59500CA81A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB071451C59500CA81A7 /* main.m */; };
-		806EAB0C1451C59500CA81A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB0B1451C59500CA81A7 /* AppDelegate.m */; };
 		806EAB141451C59500CA81A7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAB131451C59500CA81A7 /* SenTestingKit.framework */; };
 		806EAB151451C59500CA81A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFD1451C59500CA81A7 /* UIKit.framework */; };
 		806EAB161451C59500CA81A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAAFF1451C59500CA81A7 /* Foundation.framework */; };
 		806EAB1E1451C59500CA81A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806EAB1C1451C59500CA81A7 /* InfoPlist.strings */; };
 		806EAB211451C59500CA81A7 /* YFFontDisplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB201451C59500CA81A7 /* YFFontDisplayerTests.m */; };
+		806EAB321451C5E500CA81A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB311451C5E500CA81A7 /* AppDelegate.m */; };
+		806EAB351451C5F000CA81A7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806EAB341451C5F000CA81A7 /* MainViewController.m */; };
+		806EAB381451C61C00CA81A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806EAB361451C61600CA81A7 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +35,21 @@
 		806EAAF91451C59500CA81A7 /* YFFontDisplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFFontDisplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806EAAFD1451C59500CA81A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		806EAAFF1451C59500CA81A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		806EAB031451C59500CA81A7 /* YFFontDisplayer-Info.plist */ = {isa = PBXFileReference; path = "YFFontDisplayer-Info.plist"; sourceTree = "<group>"; };
+		806EAB031451C59500CA81A7 /* YFFontDisplayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YFFontDisplayer-Info.plist"; sourceTree = "<group>"; };
 		806EAB051451C59500CA81A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806EAB071451C59500CA81A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		806EAB091451C59500CA81A7 /* YFFontDisplayer-Prefix.pch */ = {isa = PBXFileReference; path = "YFFontDisplayer-Prefix.pch"; sourceTree = "<group>"; };
-		806EAB0A1451C59500CA81A7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		806EAB0B1451C59500CA81A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806EAB091451C59500CA81A7 /* YFFontDisplayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFFontDisplayer-Prefix.pch"; sourceTree = "<group>"; };
 		806EAB121451C59500CA81A7 /* YFFontDisplayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFFontDisplayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		806EAB131451C59500CA81A7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		806EAB1B1451C59500CA81A7 /* YFFontDisplayerTests-Info.plist */ = {isa = PBXFileReference; path = "YFFontDisplayerTests-Info.plist"; sourceTree = "<group>"; };
+		806EAB1B1451C59500CA81A7 /* YFFontDisplayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YFFontDisplayerTests-Info.plist"; sourceTree = "<group>"; };
 		806EAB1D1451C59500CA81A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		806EAB1F1451C59500CA81A7 /* YFFontDisplayerTests.h */ = {isa = PBXFileReference; path = YFFontDisplayerTests.h; sourceTree = "<group>"; };
+		806EAB1F1451C59500CA81A7 /* YFFontDisplayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFFontDisplayerTests.h; sourceTree = "<group>"; };
 		806EAB201451C59500CA81A7 /* YFFontDisplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFFontDisplayerTests.m; sourceTree = "<group>"; };
+		806EAB301451C5E400CA81A7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		806EAB311451C5E500CA81A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806EAB331451C5F000CA81A7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		806EAB341451C5F000CA81A7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		806EAB361451C61600CA81A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				806EAAFE1451C59500CA81A7 /* UIKit.framework in Frameworks */,
+				806EAB381451C61C00CA81A7 /* CoreGraphics.framework in Frameworks */,
 				806EAB001451C59500CA81A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +98,7 @@
 		806EAAFC1451C59500CA81A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				806EAB361451C61600CA81A7 /* CoreGraphics.framework */,
 				806EAAFD1451C59500CA81A7 /* UIKit.framework */,
 				806EAAFF1451C59500CA81A7 /* Foundation.framework */,
 				806EAB131451C59500CA81A7 /* SenTestingKit.framework */,
@@ -102,8 +109,10 @@
 		806EAB011451C59500CA81A7 /* YFFontDisplayer */ = {
 			isa = PBXGroup;
 			children = (
-				806EAB0A1451C59500CA81A7 /* AppDelegate.h */,
-				806EAB0B1451C59500CA81A7 /* AppDelegate.m */,
+				806EAB331451C5F000CA81A7 /* MainViewController.h */,
+				806EAB341451C5F000CA81A7 /* MainViewController.m */,
+				806EAB301451C5E400CA81A7 /* AppDelegate.h */,
+				806EAB311451C5E500CA81A7 /* AppDelegate.m */,
 				806EAB021451C59500CA81A7 /* Supporting Files */,
 			);
 			path = YFFontDisplayer;
@@ -245,7 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				806EAB081451C59500CA81A7 /* main.m in Sources */,
-				806EAB0C1451C59500CA81A7 /* AppDelegate.m in Sources */,
+				806EAB321451C5E500CA81A7 /* AppDelegate.m in Sources */,
+				806EAB351451C5F000CA81A7 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
